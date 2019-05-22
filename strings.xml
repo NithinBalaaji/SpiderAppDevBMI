@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BMI Calculator - Nithin Balaaji
+    </string>
+
+    <string name="weight">Weight(in Kgs)</string>
+    <string name="height">Height(in Cms)</string>
+    <string name="calculateBMI">Calculate BMI</string>
+
+
+    <string name="very_severe_underweight">Very Severely Underweight</string>
+    <string name="severely_underweight">Severely Underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="overweight">Overweight</string>
+    <string name="ob_class_i">Obese Classification - 1</string>
+    <string name="ob_class_ii">Obese Classification - 2</string>
+    <string name="ob_class_iii">Obese Classification - 3</string>
+    <string name="normal">Normal</string>
+
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity"
+    android:orientation="vertical"
+    android:background="#F1F3FF">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/weight"
+        android:layout_marginTop="60dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="6"
+        android:textSize="25dp"
+        android:importantForAutofill="no"
+        android:inputType="number|numberDecimal"
+        tools:ignore="LabelFor,UnusedAttribute"
+        tools:layout_editor_absoluteX="1441dp"
+        tools:layout_editor_absoluteY="1487dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/height"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+        <EditText
+        android:id="@+id/height"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="6"
+        android:inputType="number|numberDecimal"
+        android:textSize="25dp"
+        tools:ignore="Autofill,LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+        <Button
+        android:id="@+id/calc"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:onClick="calculateBMI"
+        android:text="@string/calculateBMI"
+            android:layout_marginBottom="50dp"
+        tools:ignore="OnClick" />
+
+    <TextView
+
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#000000"/>
+
+
+
+</LinearLayout>
